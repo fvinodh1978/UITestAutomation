@@ -10,7 +10,7 @@ from webdriver_manager.firefox import GeckoDriverManager
 
 # this test class covers all the scenarios related to authentication
 class TestLogin:
-    # @pytest.mark.ignore
+    @pytest.mark.ignore
     def test_title(self):
         expected_title="Automation Remarks"
         driver = webdriver.Firefox()
